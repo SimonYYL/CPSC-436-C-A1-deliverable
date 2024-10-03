@@ -1,0 +1,27 @@
+2024-10-03 10:02:27 Collecting en-core-web-md==3.8.0
+2024-10-03 10:02:28   Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl (33.5 MB)
+2024-10-03 10:02:29      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 33.5/33.5 MB 27.5 MB/s eta 0:00:00
+2024-10-03 10:02:29 Installing collected packages: en-core-web-md
+2024-10-03 10:02:30 Successfully installed en-core-web-md-3.8.0
+2024-10-03 10:02:30 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+2024-10-03 10:02:32 ✔ Download and installation successful
+2024-10-03 10:02:32 You can now load the package via spacy.load('en_core_web_md')
+2024-10-03 10:02:32 {'word1': 'cat', 'word2': 'dog', 'similarity': 1.0}
+
+
+
+
+
+
+
+
+
+2024-10-03 10:02:27 Collecting en-core-web-md==3.8.0
+2024-10-03 10:02:28   Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl (33.5 MB)
+2024-10-03 10:02:29      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 33.5/33.5 MB 27.5 MB/s eta 0:00:00
+2024-10-03 10:02:29 Installing collected packages: en-core-web-md
+2024-10-03 10:02:30 Successfully installed en-core-web-md-3.8.0
+2024-10-03 10:02:30 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+2024-10-03 10:02:32 ✔ Download and installation successful
+2024-10-03 10:02:32 You can now load the package via spacy.load('en_core_web_md')
+2024-10-03 10:02:32 {'word1': 'cat', 'word2': 'dog', 'similarity': 1.0}

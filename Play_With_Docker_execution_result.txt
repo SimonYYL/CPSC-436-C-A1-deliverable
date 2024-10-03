@@ -1,0 +1,25 @@
+[node1] (local) root@192.168.0.8 ~
+$ docker pull simonl98/word-similarity:latest
+latest: Pulling from simonl98/word-similarity
+302e3ee49805: Pull complete 
+6b08635bc459: Pull complete 
+18bb7c8edce2: Pull complete 
+8341816e3d13: Pull complete 
+83a90516a7a0: Pull complete 
+e307ffdb799c: Pull complete 
+15ebcb6f7055: Pull complete 
+6a4e6581177c: Pull complete 
+Digest: sha256:c9f3abc854667127fac0767189a37931e775a2378c5786b535d0a258d83a674e
+Status: Downloaded newer image for simonl98/word-similarity:latest
+docker.io/simonl98/word-similarity:latest
+[node1] (local) root@192.168.0.8 ~
+$ docker run simonl98/word-similarity:latest
+Collecting en-core-web-md==3.8.0
+  Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl (33.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 33.5/33.5 MB 95.9 MB/s eta 0:00:00
+Installing collected packages: en-core-web-md
+Successfully installed en-core-web-md-3.8.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+✔ Download and installation successful
+You can now load the package via spacy.load('en_core_web_md')
+{'word1': 'cat', 'word2': 'dog', 'similarity': 1.0000001192092896}
